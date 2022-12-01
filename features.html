@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>vSpline</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet"> 
+         <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/manifest.json">
+        <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>          
+        <script src="js/scripts.js"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
+    </head>
+    <body onload="loadXMLDoc()"> 
+        
+        
+      <nav id="navigation"> 
+             <a href="index.html">
+                <div class="logo"></div>
+            </a>
+          <div class="mobile menu" onclick="showMenu()">
+            <div id="nav-icon4">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+<!--        <img src="images/menu.png">-->
+        </div>
+            <ul class="desktop">                           
+                <li><a href="index.html#contact">Contact</a></li>                
+                <li><a href="about.html">Team</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="current"><a href="features.html">About</a></li>
+            </ul>    
+            <ul class="mobile dropdown">                           
+                <li class="current"><a href="features.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">Team</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>        
+        </nav>
+        <main>
+            <div id="white"><br></div>
+<!--
+        <header>   
+            <img src="images/About_Banner.jpg"> 
+        </header>
+-->
+            <div class='bannerimage'>
+             <img src="images/About_Banner.jpg"> 
+            </div>
+        
+            <div class="content" id="about">
+                
+            <br>
+                
+            <h1>About vSpline</h1>
+            <h2>What is vSpline?</h2>      
+                
+                <p>
+                vSpline is a 3D modeling application that allows users to intuitively create, manipulate, analyze, and 3D print physical prototypes all within virtual reality. Traditional 3D modeling tools are clunky with a steep learning curve. Through the power of immersion and 3D input, users can now express their ideas through a tool unlike anything before. Check out vSpline's features below!</p>
+                
+                <br>
+                <br>
+                <div class="section">
+            <h1>vSpline Features</h1>
+            <h2>Learn about all the features in vSpline</h2>  
+             
+                <br>
+                <br>
+                
+                <div id="youtube_player">
+                     
+                    <img class="cancel" onclick="hideVideo()" src="images/cancel.png">
+                 <div id="player">
+                    </div>
+                   
+                </div>
+                    
+                    
+           <div id="vids"></div>
+                
+                    
+            <div class="mobile">
+                    
+                    
+                <div class="mobile_features">                    
+                    <div class="video_paused">
+                        <h2> Create </h2>                        
+                        <img class='play' src="images/play.png"> 
+                        <img class='video_poster' src="images/About/Create.png">
+                    </div>
+                    <div class="video_play">
+                        <img class="video_cancel" src="images/cancel.png">
+                        <video class="feature_video" controls>
+                            <source src="videos/Input.mp4">
+                        </video>                        
+                    </div>
+                </div>
+                
+               <div class="mobile_features">                    
+                    <div class="video_paused">
+                        <h2> Manipulate </h2>                        
+                        <img class='play' src="images/play.png"> 
+                        <img class='video_poster' src="images/About/Mannipulate.png">
+                    </div>
+                    <div class="video_play">
+                        <img class="video_cancel" src="images/cancel.png">
+                        <video class="feature_video" controls>
+                            <source src="videos/Modification.mp4">
+                        </video>                        
+                    </div>
+                </div>
+                <div class="mobile_features">                    
+                    <div class="video_paused">
+                        <h2> Interface </h2>                        
+                        <img class='play' src="images/play.png"> 
+                        <img class='video_poster' src="images/About/Interface.png">
+                    </div>
+                    <div class="video_play">
+                        <img class="video_cancel" src="images/cancel.png">
+                        <video class="feature_video" controls>
+                            <source src="videos/Interface.mp4">
+                        </video>                        
+                    </div>
+                </div>
+                <div class="mobile_features">                    
+                    <div class="video_paused">
+                        <h2> Analyze </h2>                        
+                        <img class='play' src="images/play.png"> 
+                        <img class='video_poster' src="images/About/Evaluate.png">
+                    </div>
+                    <div class="video_play">
+                        <img class="video_cancel" src="images/cancel.png">
+                        <video class="feature_video" controls>
+                            <source src="videos/Evaluation.mp4">
+                        </video>                        
+                    </div>
+                </div>
+                
+                
+                
+<!--
+                <div class="center">
+                    <h1>Create</h1>
+                <div class="youtube_video">
+                <iframe width="300" height="168" class="youtube" src="https://www.youtube.com/embed/zy3CW_RRe_c?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                  <div class="center">
+                    <h1>Manipulate</h1>
+                <div class="youtube_video">
+                <iframe width="300" height="168" class="youtube" src="https://www.youtube.com/embed/Bfh2U9koWTs?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div> 
+                
+                  <div class="center">
+                    <h1>Interface</h1>
+                <div class="youtube_video">
+                <iframe width="300" height="168" class="youtube" src="https://www.youtube.com/embed/lIYhFX1Cov4?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                  <div class="center">
+                    <h1>Analyze</h1>
+                <div class="youtube_video">
+                <iframe width="300" height="168" class="youtube" src="https://www.youtube.com/embed/fZTmjBMN0Ks?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div> 
+-->
+                
+                    
+            </div>        
+                    
+<!--   
+            <div class="section" id="feature_links">
+             <a class="link1" href="">Controller Layout</a>
+             <a class="link1" href=""> Help</a>
+            </div> -->
+
+                
+            </div>
+            <br>
+            <br>
+            </div>
+    </main>
+        
+          
+        <footer>
+            <p> &copy; 2017 vSpline</p>
+            
+            <div id="social_media">
+                <div class="social_media_item">
+                 <a href="https://www.youtube.com/channel/UC1uYQSzyXMeosPO1nRYhBvw" target="_blank">
+                        <img src="images/icons/youtube.png">
+                        <img class="display_none" src="images/icons/youtube_hover.png">
+                 </a>
+                </div>
+                <div class="social_media_item">
+                    <a href="https://sketchfab.com/vSpline" target="_blank">                    <img src="images/icons/sketchfab.png">
+                        <img class="display_none" src="images/icons/sketchfab_hover.png">
+                    </a>
+                </div>
+                 <div class="social_media_item">
+                    <a href="https://angel.co/vspline" target="_blank">                    
+                        <img src="images/icons/angellist.png">
+                        <img class="display_none" src="images/icons/angellist_hover.png">
+                    </a>
+                </div>
+                <div class="social_media_item">
+                    <a href="https://www.facebook.com/vSpline/" target="_blank">                    
+                        <img src="images/icons/facebook.png">
+                        <img class="display_none" src="images/icons/facebook_hover.png">
+                    </a>
+                </div>
+                <div class="social_media_item">
+                    <a href=https://www.instagram.com/vspline_vr/ target="_blank">                    
+                        <img src="images/icons/instagram.png">
+                        <img class="display_none" src="images/icons/instagram_hover.png">
+                    </a>
+                </div>
+            </div>
+            
+        </footer>
+        
+        
+    </body>
+</html>
+

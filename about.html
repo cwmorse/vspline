@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>vSpline</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet"> 
+         <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/manifest.json">
+        <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>          
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>                
+        
+       <nav id="navigation"> 
+             <a href="index.html">
+                <div class="logo"></div>
+            </a>
+           <div class="mobile menu" onclick="showMenu()">
+            <div id="nav-icon4">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+<!--        <img src="images/menu.png">-->
+        </div>
+            <ul class="desktop">                           
+                <li><a href="index.html#contact">Contact</a></li>                
+                <li class="current"><a href="about.html">Team</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="features.html">About</a></li>
+            </ul>     
+            <ul class="mobile dropdown">                        
+                <li><a href="features.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li class="current"><a href="about.html">Team</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>        
+        </nav>
+        <main>
+<!--
+        <header>
+            <img src="images/Team_Banner.jpg"> 
+        </header>
+-->
+            
+            <div class='bannerimage'>
+             <img src="images/Team_Banner.jpg">    
+            </div>
+        
+            <div class="content">
+            
+             <br>
+             <h1>Meet Our Team</h1>
+            
+             <div class="section" id="team">                
+                 vSpline was developed by Ethan Arnowitz and Christopher Morse at Cornell University. Ethan and Chris met in January of 2016 when they enrolled in  <a class='link_blue' href="http://www.graphics.cornell.edu/academic/cs4654/" target="_blank">Don Greenberg's Experimental Virtual Reality Design Studio</a>. After graduating with their masters degrees in December of 2016, Chris and Ethan developed a prototype version of vSpline within 4 months. Initial findings from vSpline will be presented at the ACADIA 2017 conference at MIT.
+                 <br>
+                 <br>
+                 
+                 
+                
+                    <div class="about_list_wrapper">
+                        <div class="about_list">
+                        <img class="headshot" src="images/Headshot_Ethan.png">
+                        <br>
+                        <h2>Ethan Arnowitz</h2>
+                        <hr>
+                        <p>
+                        Ethan received a Master of Science in Human Factors Ergonomics from Cornell University, and holds an additional degree in Environmental Design. As a research associate at the Program of Computer Graphics, his area of focus is on human perception and user experience within immersive 3D virtual environments. Previous research focused on the impact of display medium on spatial presence, emotions, and aesthetic value, with an overall focus on the intersection of emerging technology and user experience.</p>
+                        <a href="https://www.linkedin.com/in/ethanarnowitz/" rel="noopener noreferrer" target="_blank"><img class="linked_in" src="images/LinkedIn_Icon.png"></a>
+                        </div>
+                        
+                    
+                    <div class="about_list">
+                        <img class="headshot" src="images/Headshot_chris.png">
+                        <br>
+                        <h2>Christopher Morse</h2>
+                        <hr>
+                        <p> Chris received a Master of Architecture from Cornell University, and holds additional degrees in Mathematics Education and Physics. As a research associate at the Cornell University Program of Computer Graphics, his area of focus explores ways in which emerging technologies can offer new tools of design and redefine the way designers think about drawing and digital modeling. He previously taught high school math and physics, and is especially interested in the intersection of technological innovation, education, and design.</p>
+                        <a href="https://www.linkedin.com/in/christopher-morse-12868897/" rel="noopener noreferrer" target="_blank" ><img class="linked_in" src="images/LinkedIn_Icon.png"></a>
+                    </div>
+                </div>
+                
+              </div>            
+                
+                
+                <h1 class="process">Watch Our Process</h1>
+                <div class="center">
+                <div class="youtube_video">
+                <iframe width="800" height="450" class="youtube" src="https://www.youtube.com/embed/Ob_208gxVhw?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                <div class="sponsors">
+                <h1> Sponsors</h1>
+                <div class="cornell_logo">
+                <img  src="images/CU_LOGO_RED.gif">
+                </div>
+                <div class="sponsor_logos">
+                 <img src="images/Nvidia.png">
+                 <img src="images/Valve.jpg">
+                 <img src="images/Autodesk.png">
+                </div>
+                <p>
+                This project was developed within the Program of Computer Graphics (PCG) at Cornell University. Funding and equipment from Nvidia, Valve, and Autodesk were donated to PCG and used towards this project.
+                </p>
+                </div>
+            
+        
+            <br>
+            <br>
+            <br>
+            </div>
+        </main>
+          
+        <footer>
+            <p> &copy; 2017 vSpline</p>
+            
+            <div id="social_media">
+                <div class="social_media_item">
+                 <a href="https://www.youtube.com/channel/UC1uYQSzyXMeosPO1nRYhBvw" target="_blank">
+                        <img src="images/icons/youtube.png">
+                        <img class="display_none" src="images/icons/youtube_hover.png">
+                 </a>
+                </div>
+                <div class="social_media_item">
+                    <a href="https://sketchfab.com/vSpline" target="_blank">                    <img src="images/icons/sketchfab.png">
+                        <img class="display_none" src="images/icons/sketchfab_hover.png">
+                    </a>
+                </div>
+                 <div class="social_media_item">
+                    <a href="https://angel.co/vspline" target="_blank">                    
+                        <img src="images/icons/angellist.png">
+                        <img class="display_none" src="images/icons/angellist_hover.png">
+                    </a>
+                </div>
+                <div class="social_media_item">
+                    <a href="https://www.facebook.com/vSpline/" target="_blank">                    
+                        <img src="images/icons/facebook.png">
+                        <img class="display_none" src="images/icons/facebook_hover.png">
+                    </a>
+                </div>
+                <div class="social_media_item">
+                    <a href=https://www.instagram.com/vspline_vr/ target="_blank">                    
+                        <img src="images/icons/instagram.png">
+                        <img class="display_none" src="images/icons/instagram_hover.png">
+                    </a>
+                </div>
+            </div>
+            
+        </footer>
+        
+    </body>
+</html>
+

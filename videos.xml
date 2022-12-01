@@ -1,0 +1,27 @@
+<clips>
+    <category>
+        <title>Create</title>
+        <thumb>Create</thumb>
+        <youtube>zy3CW_RRe_c</youtube>
+    </category>
+    <category>
+        <title>Manipulate</title>
+        <thumb>Mannipulate</thumb>
+        <youtube>Bfh2U9koWTs</youtube>
+    </category>
+    <category>
+        <title>Interface</title>
+        <thumb>Interface</thumb>
+        <youtube>lIYhFX1Cov4</youtube>   
+    </category>
+    <category>
+        <title>Analyze</title>
+        <thumb>Evaluate</thumb>
+        <youtube>fZTmjBMN0Ks</youtube>
+    </category>
+    <!--category>
+        <title>Print</title>        
+        <thumb>Print</thumb>
+        <youtube>zdCebQRlLZQ</youtube>   
+    </category-->
+</clips>
